@@ -1,4 +1,4 @@
-package com.java.Basics;
+package com.basics.grin;
 
 /**
  * Hello world!
