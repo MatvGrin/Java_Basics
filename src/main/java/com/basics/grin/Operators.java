@@ -30,21 +30,21 @@ public class Operators {
             System.out.println("a << 2  = " + (a << 2)); // 240 = ... 1111 0000
             System.out.println("a >> 2  = " + (a >> 2)); // 15  = ... 0000 1111
             System.out.println("a >>> 2 = " + (a >>> 2)); // 15  = ... 0000 1111
-                    int a2 = 10;
-                    int b2 = 20;
-                    System.out.println("a == b = " + (a2 == b2) );
-                    System.out.println("a != b = " + (a2 != b2) );
-                    System.out.println("a > b = " + (a2 > b2) );
-                    System.out.println("a < b = " + (a2 < b2) );
-                    System.out.println("b >= a = " + (b2 >= a2) );
-                    System.out.println("b <= a = " + (b2 <= a2) );
-                    String name ="EPAM";
-                    boolean result = name instanceof String;
-                    System.out.println( result );
-                    int experience = 5;
-                    int requirements = 10;
-                    String resul = (experience > requirements) ? "Accept to project" : "Learn more" ;
-                    System.out.println( resul );
+            int a2 = 10;
+            int b2 = 20;
+            System.out.println("a == b = " + (a2 == b2) );
+            System.out.println("a != b = " + (a2 != b2) );
+            System.out.println("a > b = " + (a2 > b2) );
+            System.out.println("a < b = " + (a2 < b2) );
+            System.out.println("b >= a = " + (b2 >= a2) );
+            System.out.println("b <= a = " + (b2 <= a2) );
+            String name ="EPAM";
+            boolean result = name instanceof String;
+            System.out.println( result );
+            int experience = 5;
+            int requirements = 10;
+            String resul = (experience > requirements) ? "Accept to project" : "Learn more" ;
+            System.out.println( resul );
         }
 
 }
