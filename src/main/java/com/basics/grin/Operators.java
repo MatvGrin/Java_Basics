@@ -45,6 +45,7 @@ public class Operators {
         int requirements = 10;
         String resul = (experience > requirements) ? "Accept to project" : "Learn more";
         System.out.println(resul);
+
     }
 
 }
