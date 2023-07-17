@@ -1,6 +1,9 @@
 package com.basics.grin;
 
 public class Reference {
+    public static void main(String[] args) {
+
+    }
     class WeekDay{
         int number;
         String name;
